@@ -1,5 +1,5 @@
 <template>
-	<RouterView />
+	<div>User Profile</div>
 </template>
 
 <script setup></script>

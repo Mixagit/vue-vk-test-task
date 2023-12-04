@@ -1,5 +1,5 @@
 <template>
-	<RouterView />
+	<div>Friends List</div>
 </template>
 
 <script setup></script>

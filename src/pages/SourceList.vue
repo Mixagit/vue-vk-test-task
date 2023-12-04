@@ -1,5 +1,5 @@
 <template>
-	<RouterView />
+	<div>Source List</div>
 </template>
 
 <script setup></script>
