@@ -1,7 +1,18 @@
-# Vue 3 + Vite
+# Vue 3 + VK API test task
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Deployment
 
-## Recommended IDE Setup
+The application deployed at github pages:
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<https://mixagit.github.io/vue-vk-test-task/>
+
+## Tasks
+
+1. Создать SPA, на базе Vue, позволяющее интерактивно добавлять/удалять пользователей Вконтакте, используя API, в список `Исходный`
+   по их имени фамилии (с автодополнением), числовому id или имени пользователя ![](https://i.ytimg.com/vi/2xnsnsw9KwI/maxresdefault.jpg).
+2. По кнопке "построить" отображается единый список всех друзей пользователей из списка `Исходный` (в виде панелей) - назовём его `Друзья`.
+   Пользователи в списке `Друзья` должны быть отсортированы по фамилии/имени (с отображением пола, возраста, количества друзей и фотографии), при этом цвет панели пользователя тем ярче, чем у большего числа пользователей из списка `Исходный` он находится в друзьях.
+3. При клике по другу осуществляется переход на страницу, где отображаются те пользователи из списка `Исходный`, у которых он находится в друзьях, а также записи на его стене.
+4. По нажатию на кнопку назад - отображается первоначальная страница со списками `Исходный` и `Друзья`, без потери состояния.
+5. Залить код приложения в github/gitlab.
+6. Залить рабочее приложение на [github-pages](https://pages.github.com/) или на любой другой хостинг - по своему усмотрению.
