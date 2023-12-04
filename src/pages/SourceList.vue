@@ -1,7 +1,13 @@
 <template>
-	<div>Source List</div>
+	<div>{{ sourceUserList }}</div>
 </template>
 
-<script setup></script>
+<script setup>
+import { computed } from 'vue'
+import { useStore } from 'vuex'
+
+const store = useStore()
+const sourceUserList = computed(() => store.state.user.sourceUserList)
+</script>
 
 <style scoped></style>
